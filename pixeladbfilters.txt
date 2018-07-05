@@ -1,0 +1,46 @@
+! Title: Pixel Adblock Filters
+! Expires: 4 days
+! Homepage: https://github.com/Pixel-Adblock-Filters
+! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE
+
+genius.com##.leaderboard_ad_container
+genius.com##.u-top_margin
+genius.com##.u-bottom_margin
+genius.com##.u-x_large_top_margin
+genius.com##.u-x_large_bottom_margin
+genius.com##.u-xx_large_top_margin
+genius.com##.u-xx_large_bottom_margin
+genius.com##.comment.dfp_unit
+genius.com##.u-vertical_margins
+genius.com##.u-x_large_vertical_margins
+genius.com##.u-xx_large_vertical_margins
+
+easypronunciation.com##.sidebar-content
+
+www.lilsubs.com^$inline-script,domain=www.lilsubs.com
+
+||view.vzaar.com$subdocument
+
+! https://userstyles.org/styles/79509/typeracer-remove-ads
+play.typeracer.com##.newEastWidget
+play.typeracer.com##.newWestWidget
+play.typeracer.com##.newNorthWidget
+play.typeracer.com##.newSouthWidget
+play.typeracer.com##iframe
+
+! https://github.com/natuschaos/A-Better-Twitter/blob/master/a-better-twitter.css
+twitter.com##li[data-suggestion-json*="ActivityTeet"]
+twitter.com##li.promoted-trend
+twitter.com##li.promoted-account
+twitter.com##div.promoted-tweet
+twitter.com##div.flex-module.trends-container
+twitter.com##div.flexmodule.trends
+twitter.com##div.module.trends
+twitter.com##div.module.roaming-module.wtf-module.js-wtf-module.has-content
+twitter.com##div.Footer.module.roaming-module
+twitter.com##div.ProfileWTFAndTrends
+twitter.com##div.trends-inner
+twitter.com##div.flex-module.import-prompt
+
+no-ads-youtube.com###myModal
+no-ads-youtube.com##.in.fade.modal-backdrop
