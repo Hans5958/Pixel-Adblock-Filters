@@ -1,6 +1,6 @@
 ! Title: Pixel Adblock Filters
 ! Expires: 4 days
-! Homepage: https://github.com/Pixel-Adblock-Filters
+! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
 ! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE
 
 genius.com##.leaderboard_ad_container
