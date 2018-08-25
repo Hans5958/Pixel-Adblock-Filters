@@ -1,7 +1,7 @@
 ! Title: Pixel Adblock Filters
-! Expires: 4 days
+! Expires: 7 days
 ! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
-! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE
+! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE.md
 
 genius.com##.leaderboard_ad_container
 genius.com##.u-top_margin
@@ -29,7 +29,7 @@ play.typeracer.com##.newSouthWidget
 play.typeracer.com##iframe
 
 ! https://github.com/natuschaos/A-Better-Twitter/blob/master/a-better-twitter.css
-twitter.com##li[data-suggestion-json*="ActivityTeet"]
+twitter.com##li[data-suggestion-json*="ActivityTweet"]
 twitter.com##li.promoted-trend
 twitter.com##li.promoted-account
 twitter.com##div.promoted-tweet
@@ -44,3 +44,19 @@ twitter.com##div.flex-module.import-prompt
 
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
+
+en.wikipedia.nom.al###xtop
+
+tinypng.com##canvas
+
+brainly.co.id##.sg-bubble
+brainly.co.id##.js-hide-when-video-ad-plays
+brainly.co.id##.brn-ads-box--billboard.brn-ads-box
+brainly.co.id###gpt-ad-brainly_rectangle_stream
+brainly.co.id##.sg-layout__content > .sg-layout__box
+brainly.co.id##.js-katie-button.sg-icon-as-button--light
+brainly.co.id##.js-react-question-add-aside
+
+www.facebook.com###u_0_c
+
+yagpdb.xyz###nav-footer
