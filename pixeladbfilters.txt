@@ -3,24 +3,6 @@
 ! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
 ! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE.md
 
-genius.com##.leaderboard_ad_container
-genius.com##.u-top_margin
-genius.com##.u-bottom_margin
-genius.com##.u-x_large_top_margin
-genius.com##.u-x_large_bottom_margin
-genius.com##.u-xx_large_top_margin
-genius.com##.u-xx_large_bottom_margin
-genius.com##.comment.dfp_unit
-genius.com##.u-vertical_margins
-genius.com##.u-x_large_vertical_margins
-genius.com##.u-xx_large_vertical_margins
-
-easypronunciation.com##.sidebar-content
-
-www.lilsubs.com^$inline-script,domain=www.lilsubs.com
-
-||view.vzaar.com$subdocument
-
 ! https://userstyles.org/styles/79509/typeracer-remove-ads
 play.typeracer.com##.newEastWidget
 play.typeracer.com##.newWestWidget
@@ -45,10 +27,6 @@ twitter.com##div.flex-module.import-prompt
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
 
-en.wikipedia.nom.al###xtop
-
-tinypng.com##canvas
-
 brainly.co.id##.sg-bubble
 brainly.co.id##.js-hide-when-video-ad-plays
 brainly.co.id##.brn-ads-box--billboard.brn-ads-box
@@ -58,5 +36,13 @@ brainly.co.id##.js-katie-button.sg-icon-as-button--light
 brainly.co.id##.js-react-question-add-aside
 
 www.facebook.com###u_0_c
-
 yagpdb.xyz###nav-footer
+www.sporcle.com##.remodal
+elixi.re##.show.fade.modal-backdrop
+minecraft.gamepedia.com###siderail_minecraft_gamepedia
+en.savefrom.net###main > .wrapper
+en.wikipedia.nom.al###xtop
+tinypng.com##canvas
+easypronunciation.com##.sidebar-content
+www.lilsubs.com^$inline-script,domain=www.lilsubs.com
+||view.vzaar.com$subdocument
