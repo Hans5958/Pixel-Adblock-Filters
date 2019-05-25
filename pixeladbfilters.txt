@@ -27,13 +27,13 @@ twitter.com##div.flex-module.import-prompt
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
 
-! brainly.co.id##.sg-bubble
-! brainly.co.id##.js-hide-when-video-ad-plays
-! brainly.co.id##.brn-ads-box--billboard.brn-ads-box
-! brainly.co.id###gpt-ad-brainly_rectangle_stream
-! brainly.co.id##.sg-layout__content > .sg-layout__box
-! brainly.co.id##.js-katie-button.sg-icon-as-button--light
-! brainly.co.id##.js-react-question-add-aside
+brainly.co.id##.sg-bubble
+brainly.co.id##.js-hide-when-video-ad-plays
+brainly.co.id##.brn-ads-box--billboard.brn-ads-box
+brainly.co.id###gpt-ad-brainly_rectangle_stream
+brainly.co.id##.sg-layout__content > .sg-layout__box
+brainly.co.id##.js-katie-button.sg-icon-as-button--light
+brainly.co.id##.js-react-question-add-aside
 
 www.facebook.com###u_0_c
 yagpdb.xyz###nav-footer
