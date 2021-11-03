@@ -3,26 +3,13 @@
 ! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
 ! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE.md
 
-! https://userstyles.org/styles/79509/typeracer-remove-ads
+! Grouped filters per domain
+
 play.typeracer.com##.newEastWidget
 play.typeracer.com##.newWestWidget
 play.typeracer.com##.newNorthWidget
 play.typeracer.com##.newSouthWidget
 play.typeracer.com##iframe
-
-! https://github.com/natuschaos/A-Better-Twitter/blob/master/a-better-twitter.css
-twitter.com##li[data-suggestion-json*="ActivityTweet"]
-twitter.com##li.promoted-trend
-twitter.com##li.promoted-account
-twitter.com##div.promoted-tweet
-twitter.com##div.flex-module.trends-container
-twitter.com##div.flexmodule.trends
-twitter.com##div.module.trends
-twitter.com##div.module.roaming-module.wtf-module.js-wtf-module.has-content
-twitter.com##div.Footer.module.roaming-module
-twitter.com##div.ProfileWTFAndTrends
-twitter.com##div.trends-inner
-twitter.com##div.flex-module.import-prompt
 
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
@@ -34,6 +21,37 @@ brainly.co.id###gpt-ad-brainly_rectangle_stream
 brainly.co.id##.sg-layout__content > .sg-layout__box
 brainly.co.id##.js-katie-button.sg-icon-as-button--light
 brainly.co.id##.js-react-question-add-aside
+brainly.co.id##.js-react-user-panel-desktop.sg-flex > div > .sg-flex > div.sg-flex--margin-right-xs.sg-flex:nth-of-type(1)
+brainly.co.id##div.sg-flex--no-shrink.sg-flex:nth-of-type(3)
+
+kompas.com###video-player-id
+kompas.com###playerContainerId
+kompas.com###playerContainerWrapId
+kompas.com###slideOutId
+kompas.com##.ivs-overlay-adcontainer
+kompas.com##.ivs-overlay-adplayer
+kompas.com##.ivs-widget-hidden.ivs-content-loaded.ivs-content-mediaready.ivs-sdk-wrapper
+
+www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.lihatjg
+www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##[id^="div-gpt-ad"]
+www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.linksisip
+www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##[id^="parallax"]
+www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.skybanner
+
+knowyourmeme.com##.entry-insert
+knowyourmeme.com##.contentFload
+knowyourmeme.com##.scroll.redesign.wrap.longcat:style(position: static !important)
+knowyourmeme.com##.longcat.wrap.redesign.scroll .rel #trending-bar:style(position: static !important)
+knowyourmeme.com###news_feeds
+knowyourmeme.com##.loader
+knowyourmeme.com###infinite-scrolling
+knowyourmeme.com###global-message
+knowyourmeme.com###leaderboard
+
+||*.pro^$xmlhttprequest,domain=ddownr.com
+||*.pro^$domain=ddownr.com
+
+! Miscellaneous
 
 www.facebook.com###u_0_c
 yagpdb.xyz###nav-footer
@@ -45,8 +63,7 @@ tinypng.com##canvas
 easypronunciation.com##.sidebar-content
 www.lilsubs.com^$inline-script,domain=www.lilsubs.com
 ||view.vzaar.com$subdocument
-
-kompas.com###video-player-id
-kompas.com###playerContainerId
-kompas.com###playerContainerWrapId
-kompas.com###slideOutId
+fandom.com###mixed-content-footer
+www.geoguessr.com##.game-layout__in-game-ad
+###anymx-frame
+belajarbro.id##.adsbygoogle
