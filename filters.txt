@@ -1,0 +1,52 @@
+! Title: Pixel Adblock Filters
+! Expires: 7 days
+! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
+! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE.md
+
+! https://userstyles.org/styles/79509/typeracer-remove-ads
+play.typeracer.com##.newEastWidget
+play.typeracer.com##.newWestWidget
+play.typeracer.com##.newNorthWidget
+play.typeracer.com##.newSouthWidget
+play.typeracer.com##iframe
+
+! https://github.com/natuschaos/A-Better-Twitter/blob/master/a-better-twitter.css
+twitter.com##li[data-suggestion-json*="ActivityTweet"]
+twitter.com##li.promoted-trend
+twitter.com##li.promoted-account
+twitter.com##div.promoted-tweet
+twitter.com##div.flex-module.trends-container
+twitter.com##div.flexmodule.trends
+twitter.com##div.module.trends
+twitter.com##div.module.roaming-module.wtf-module.js-wtf-module.has-content
+twitter.com##div.Footer.module.roaming-module
+twitter.com##div.ProfileWTFAndTrends
+twitter.com##div.trends-inner
+twitter.com##div.flex-module.import-prompt
+
+no-ads-youtube.com###myModal
+no-ads-youtube.com##.in.fade.modal-backdrop
+
+brainly.co.id##.brn-ab-detection-screening
+brainly.co.id##.js-hide-when-video-ad-plays
+brainly.co.id##.brn-ads-box--billboard.brn-ads-box
+brainly.co.id###gpt-ad-brainly_rectangle_stream
+brainly.co.id##.sg-layout__content > .sg-layout__box
+brainly.co.id##.js-katie-button.sg-icon-as-button--light
+brainly.co.id##.js-react-question-add-aside
+
+www.facebook.com###u_0_c
+yagpdb.xyz###nav-footer
+www.sporcle.com##.remodal
+elixi.re##.show.fade.modal-backdrop
+en.savefrom.net###main > .wrapper
+en.wikipedia.nom.al###xtop
+tinypng.com##canvas
+easypronunciation.com##.sidebar-content
+www.lilsubs.com^$inline-script,domain=www.lilsubs.com
+||view.vzaar.com$subdocument
+
+kompas.com###video-player-id
+kompas.com###playerContainerId
+kompas.com###playerContainerWrapId
+kompas.com###slideOutId
