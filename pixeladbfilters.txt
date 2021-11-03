@@ -2,4 +2,4 @@
 ! Expires: 7 days
 ! Homepage: https://github.com/Hans5958/Pixel-Adblock-Filters
 ! Licence: https://github.com/Hans5958/Pixel-Adblock-Filters/blob/master/LICENSE.md
-!#include /filters.txt
+!#include filters.txt
