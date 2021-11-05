@@ -24,6 +24,29 @@ brainly.co.id##.js-react-question-add-aside
 brainly.co.id##.js-react-user-panel-desktop.sg-flex > div > .sg-flex > div.sg-flex--margin-right-xs.sg-flex:nth-of-type(1)
 brainly.co.id##div.sg-flex--no-shrink.sg-flex:nth-of-type(3)
 
+knowyourmeme.com##.entry-insert
+knowyourmeme.com##.contentFload
+knowyourmeme.com##.scroll.redesign.wrap.longcat:style(position: static !important)
+knowyourmeme.com##.longcat.wrap.redesign.scroll .rel #trending-bar:style(position: static !important)
+knowyourmeme.com###news_feeds
+knowyourmeme.com##.loader
+knowyourmeme.com###infinite-scrolling
+knowyourmeme.com###global-message
+knowyourmeme.com###leaderboard
+knowyourmeme.com##.entry-insert
+
+||*.pro^$xmlhttprequest,domain=ddownr.com
+||*.pro^$domain=ddownr.com
+
+bulbagarden.net###laptop-box
+bulbagarden.net###bottomframe
+bulbagarden.net###upper-article
+
+quizizz.com###quizPageNonCompliant
+quizizz.com##.remove-ads-btn-container
+
+! News domains
+
 kompas.com###video-player-id
 kompas.com###playerContainerId
 kompas.com###playerContainerWrapId
@@ -38,19 +61,38 @@ www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.linksisip
 www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##[id^="parallax"]
 www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.skybanner
 
-knowyourmeme.com##.entry-insert
-knowyourmeme.com##.contentFload
-knowyourmeme.com##.scroll.redesign.wrap.longcat:style(position: static !important)
-knowyourmeme.com##.longcat.wrap.redesign.scroll .rel #trending-bar:style(position: static !important)
-knowyourmeme.com###news_feeds
-knowyourmeme.com##.loader
-knowyourmeme.com###infinite-scrolling
-knowyourmeme.com###global-message
-knowyourmeme.com###leaderboard
-knowyourmeme.com##.entry-insert
+www.goodnewsfromindonesia.id##.banner-img
+www.goodnewsfromindonesia.id##.article-sheet:not(:first-child)
 
-||*.pro^$xmlhttprequest,domain=ddownr.com
-||*.pro^$domain=ddownr.com
+! ISP blocking domains (so I don't get annoyed with stupid redirects and news)
+
+mercusuar.uzone.id##.main-banner-section
+mercusuar.uzone.id##.main-section
+mercusuar.uzone.id##.main-section-bottom
+*$domain=mercusuar.uzone.id
+*$inline-script,domain=mercusuar.uzone.id
+*$script,domain=mercusuar.uzone.id
+@@*$css,domain=mercusuar.uzone.id
+@@||cdn7.uzone.id$image
+
+||internetpositif.id/_nuxt/*$script
+internetpositif.id##.box-news
+internetpositif.id##.footerr
+*$domain=internetpositif.id
+*$inline-script,domain=internetpositif.id
+*$script,domain=internetpositif.id
+@@*$css,domain=internetpositif.id
+@@||cdn4.uzone.id/assets/uploads/uzone_prime/favicon.gif
+
+restricted.tri.co.id##div.container-content:nth-of-type(3)
+restricted.tri.co.id##div.container-content:nth-of-type(4)
+restricted.tri.co.id##div.container-content:nth-of-type(5)
+restricted.tri.co.id##.navbar
+restricted.tri.co.id##^meta[http-equiv="refresh"]
+*$inline-script,domain=restricted.tri.co.id
+*$script,domain=restricted.tri.co.id
+*$third-party,domain=restricted.tri.co.id
+@@*$css,domain=restricted.tri.co.id
 
 ! Miscellaneous
 
