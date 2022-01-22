@@ -68,7 +68,7 @@ www.goodnewsfromindonesia.id##.article-sheet:not(:first-child)
 
 mercusuar.uzone.id##.footerr
 mercusuar.uzone.id##section:nth-of-type(4)
-mercusuar.uzone.id##.top-banner:style(margin-top: 20px)
+mercusuar.uzone.id##.top-banner:style(margin-top: 40px)
 *$domain=mercusuar.uzone.id
 *$inline-script,domain=mercusuar.uzone.id
 *$script,domain=mercusuar.uzone.id
