@@ -66,14 +66,14 @@ www.goodnewsfromindonesia.id##.article-sheet:not(:first-child)
 
 ! ISP blocking domains (so I don't get annoyed with stupid redirects and news)
 
-mercusuar.uzone.id##.main-banner-section
-mercusuar.uzone.id##.main-section
-mercusuar.uzone.id##.main-section-bottom
+mercusuar.uzone.id##.footerr
+mercusuar.uzone.id##section:nth-of-type(4)
+mercusuar.uzone.id##.top-banner:style(margin-top: 20px)
 *$domain=mercusuar.uzone.id
 *$inline-script,domain=mercusuar.uzone.id
 *$script,domain=mercusuar.uzone.id
 @@*$css,domain=mercusuar.uzone.id
-@@||cdn7.uzone.id$image
+@@||cdn4.uzone.id/assets/uploads/mercusuar/Banner.jpg
 
 ||internetpositif.id/_nuxt/*$script
 internetpositif.id##.box-news
