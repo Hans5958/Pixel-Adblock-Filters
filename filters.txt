@@ -95,7 +95,7 @@ restricted.tri.co.id##^meta[http-equiv="refresh"]
 
 ! Miscellaneous
 
-www.facebook.com###u_0_c
+facebook.*###u_0_c
 yagpdb.xyz###nav-footer
 www.sporcle.com##.remodal
 elixi.re##.show.fade.modal-backdrop
