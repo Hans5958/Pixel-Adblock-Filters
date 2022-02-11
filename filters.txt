@@ -33,7 +33,6 @@ knowyourmeme.com##.loader
 knowyourmeme.com###infinite-scrolling
 knowyourmeme.com###global-message
 knowyourmeme.com###leaderboard
-knowyourmeme.com##.entry-insert
 
 ||*.pro^$xmlhttprequest,domain=ddownr.com
 ||*.pro^$domain=ddownr.com
