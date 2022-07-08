@@ -9,7 +9,11 @@ play.typeracer.com##.newEastWidget
 play.typeracer.com##.newWestWidget
 play.typeracer.com##.newNorthWidget
 play.typeracer.com##.newSouthWidget
-play.typeracer.com##iframe
+! play.typeracer.com##iframe
+play.typeracer.com##.rewardPromptPopup
+play.typeracer.com##.UpgradeAccountPromptDialog
+play.typeracer.com##.themeContent > .typeracerNotifications
+play.typeracer.com##.gwt-PopupPanelGlass
 
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
