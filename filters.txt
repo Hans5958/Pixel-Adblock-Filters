@@ -49,6 +49,27 @@ bulbagarden.net###upper-article
 quizizz.com###quizPageNonCompliant
 quizizz.com##.remove-ads-btn-container
 
+! Avoid TikTok attributing the shares
+www.tiktok.com$removeparam=_r
+www.tiktok.com$removeparam=_t
+
+! Unhide Roblox social media links
+www.roblox.com#@##social-links-container
+www.roblox.com#@#.social-link
+
+! Avoid doing moving thumbnails
+www.youtube.com##ytd-video-preview
+www.youtube.com##.ytd-thumbnail-overlay-loading-preview-renderer
+www.youtube.com##.ytd-moving-thumbnail-renderer
+||i.ytimg.com/an_webp/*$image,domain=www.youtube.com
+! Anti-viagra for thumbnails
+www.youtube.com##+js(ra, use-bigger-thumbs, [use-bigger-thumbs], stay)
+www.youtube.com##+js(ra, bigger-thumbs-style, [bigger-thumbs-style], stay)
+
+fandom.com###mixed-content-footer
+fandom.com##.category-page__trending-pages-header
+fandom.com##.category-page__trending-pages
+
 ! News domains
 
 kompas.com###video-player-id
@@ -92,7 +113,8 @@ restricted.tri.co.id##div.container-content:nth-of-type(3)
 restricted.tri.co.id##div.container-content:nth-of-type(4)
 restricted.tri.co.id##div.container-content:nth-of-type(5)
 restricted.tri.co.id##.navbar
-restricted.tri.co.id##^meta[http-equiv="refresh"]
+! restricted.tri.co.id##^meta[http-equiv="refresh"]
+restricted.tri.co.id##+js(refresh-defuser)
 *$inline-script,domain=restricted.tri.co.id
 *$script,domain=restricted.tri.co.id
 *$third-party,domain=restricted.tri.co.id
@@ -102,15 +124,20 @@ restricted.tri.co.id##^meta[http-equiv="refresh"]
 
 www.facebook.com###u_0_c
 yagpdb.xyz###nav-footer
-www.sporcle.com##.remodal
-elixi.re##.show.fade.modal-backdrop
-en.savefrom.net###main > .wrapper
-en.wikipedia.nom.al###xtop
-tinypng.com##canvas
+savefrom.net###main > .wrapper
 easypronunciation.com##.sidebar-content
 www.lilsubs.com^$inline-script,domain=www.lilsubs.com
 ||view.vzaar.com$subdocument
-fandom.com###mixed-content-footer
 www.geoguessr.com##.game-layout__in-game-ad
 ###anymx-frame
 belajarbro.id##.adsbygoogle
+! No modals
+www.sporcle.com##.remodal
+elixi.re##.show.fade.modal-backdrop
+! No moving canvas
+tinypng.com##canvas
+word.tips##div.show-ads.result-words-ad
+! No subscription call on videos
+nebula.app##.react-slidedown .css-c9czwo
+! No variety content on not found search pages
+www.bing.com###pwnrpcontainer
