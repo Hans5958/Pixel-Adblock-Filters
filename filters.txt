@@ -114,7 +114,8 @@ kompas.com###playerContainerWrapId
 kompas.com###slideOutId
 kompas.com##.ivs-overlay-adcontainer
 kompas.com##.ivs-overlay-adplayer
-kompas.com##.ivs-widget-hidden.ivs-content-loaded.ivs-content-mediaready.ivs-sdk-wrapper
+kompas.com##.ivs-widget-hidden.ivs-content-loaded.ivs-content-mediaready.ivs-sdk-wrapperr
+kompas.com##.gate-kgplus
 
 www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##.lihatjg
 www.cnnindonesia.com,detik.com,www.cnbcindonesia.com##[id^="div-gpt-ad"]
@@ -173,8 +174,9 @@ www.sporcle.com##.remodal
 elixi.re##.show.fade.modal-backdrop
 ! No moving canvas
 tinypng.com##canvas
-word.tips##div.show-ads.result-words-ad
 ! No subscription call on videos
 nebula.app##.react-slidedown .css-c9czwo
 ! No variety content on not found search pages
 www.bing.com###pwnrpcontainer
+! Disable loginwall/paywall
+roboguru.ruangguru.com###answer > .chakra-stack > .chakra-stack
