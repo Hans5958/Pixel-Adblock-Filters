@@ -5,15 +5,15 @@
 
 ! Grouped filters per domain
 
-play.typeracer.com##.newEastWidget
-play.typeracer.com##.newWestWidget
-play.typeracer.com##.newNorthWidget
-play.typeracer.com##.newSouthWidget
-! play.typeracer.com##iframe
 play.typeracer.com##.rewardPromptPopup
 play.typeracer.com##.UpgradeAccountPromptDialog
 play.typeracer.com##.themeContent > .typeracerNotifications
 play.typeracer.com##.gwt-PopupPanelGlass
+play.typeracer.com##.EGVideoPlayerSmall:upward(1)
+play.typeracer.com##.upgradeButton
+play.typeracer.com###subscribeLinkNav
+play.typeracer.com##.createAccountLeaderboardPrompt
+play.typeracer.com##.upgradeButton + .stat:style(margin-left: 0)
 
 no-ads-youtube.com###myModal
 no-ads-youtube.com##.in.fade.modal-backdrop
@@ -56,39 +56,20 @@ quizizz.com##.remove-ads-btn-container
 www.tiktok.com$removeparam=_r
 www.tiktok.com$removeparam=_t
 
+||presence.roblox.com^
 ! Unhide Roblox social media links
 www.roblox.com#@##social-links-container
 www.roblox.com#@#.social-link
 
 www.youtube.com##ytd-search ytd-shelf-renderer:has(h2:has-text("For you"))
+www.youtube.com##.iv-branding.annotation-type-custom.annotation
 ! Avoid doing moving thumbnails
 www.youtube.com##ytd-video-preview
-www.youtube.com##.ytd-thumbnail-overlay-loading-preview-renderer
-www.youtube.com##.ytd-moving-thumbnail-renderer
+www.youtube.com##ytd-thumbnail-overlay-loading-preview-renderer
 ||i.ytimg.com/an_webp/*$image,domain=www.youtube.com
 ! Anti-viagra for thumbnails
 www.youtube.com##+js(ra, use-bigger-thumbs, [use-bigger-thumbs], stay)
 www.youtube.com##+js(ra, bigger-thumbs-style, [bigger-thumbs-style], stay)
-! YouTube Shorts (adjusted from https://letsblock.it/filters/youtube-shorts)
-www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
-www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
-www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
-!www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-!www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-!www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-!www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
-m.youtube.com##ytm-reel-shelf-renderer
-m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
-!m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
-m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-!m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 
 fandom.com###mixed-content-footer
 fandom.com##.category-page__trending-pages-header
@@ -105,6 +86,16 @@ www.hukumonline.com##.justika-content
 www.hukumonline.com###justika-external-service-frame-ulasan-top
 www.hukumonline.com##.modal-stickyRCS-content
 www.hukumonline.com##.modal-push-notif-content
+
+s.id##.MicrositeContainer_Container__btcXO > .z-10.relative
+blog.s.id##div.absolute:has-text(Ads):upward(1)
+home.s.id##div.absolute:has-text(Ads):upward(2)
+
+www.nomorobo.com##.modal
+www.nomorobo.com##div.profile-social
+
+www.simplilearn.com##.video-sticky-cls.videoDetail.article-banner-details.detail-banner
+www.simplilearn.com###google_onetap_appened
 
 ! News domains
 
@@ -157,6 +148,9 @@ restricted.tri.co.id##+js(refresh-defuser)
 *$third-party,domain=restricted.tri.co.id
 @@*$css,domain=restricted.tri.co.id
 
+internettepat.telkomsel.com##.container
+internettepat.telkomsel.com##footer
+
 ! Miscellaneous
 
 www.facebook.com###u_0_c
@@ -169,6 +163,8 @@ www.geoguessr.com##.game-layout__in-game-ad
 ###anymx-frame
 belajarbro.id##.adsbygoogle
 word.tips##div.show-ads.result-words-ad
+trakt.tv##.grid-item > [href="/vip"]:nth-ancestor(1)
+www.last.fm##.features-footer
 ! No modals
 www.sporcle.com##.remodal
 elixi.re##.show.fade.modal-backdrop
