@@ -71,6 +71,31 @@ www.youtube.com##ytd-thumbnail-overlay-loading-preview-renderer
 www.youtube.com##+js(ra, use-bigger-thumbs, [use-bigger-thumbs], stay)
 www.youtube.com##+js(ra, bigger-thumbs-style, [bigger-thumbs-style], stay)
 
+! YouTube Shorts
+! https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+
+! Remove empty spaces in grid
+www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+
+! Hide shorts sections except on history page
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
+
+! Hide short remixes in video descriptions and in suggestions beside the comments
+www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
+
+! Hide shorts category on homepage and search pages
+www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+
+!!! MOBILE !!!
+
+! Hide shorts sections except on history page
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-rich-section-renderer:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer.item:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
+
+! Hide short remixes in video descriptions and in suggestions below the player
+m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts.?Remix.*$/i))
+
 fandom.com###mixed-content-footer
 fandom.com##.category-page__trending-pages-header
 fandom.com##.category-page__trending-pages
@@ -96,6 +121,18 @@ www.nomorobo.com##div.profile-social
 
 www.simplilearn.com##.video-sticky-cls.videoDetail.article-banner-details.detail-banner
 www.simplilearn.com###google_onetap_appened
+
+bazaartracker.com##div.mb-10.rounded-lg.border-subtle-300.bg-analyse-900:nth-of-type(2)
+bazaartracker.com##.trust-div
+bazaartracker.com##.bg-analyse-300.mt-36 > .bg-analyse-100
+bazaartracker.com##tr:has-text(0 coins):has-text(-)
+bazaartracker.com##div.lg\:text-left.text-center.mb-3:nth-of-type(1)
+
+acloudxpert.com##.outcxvlbvzrmxhqnmxaunhiyranszunoavguvhrdkvvmzazecadf.dgfwtfdsvdlznxroejvumzoqwdmrkivrcfczyzlmewvnqzhunboodecadf
+acloudxpert.com##body > div:has(img[alt="Ads Blocker Image Powered by Code Help Pro"])
+
+www.freecram.net##.qa-answerexp:style(display:block !important)
+www.freecram.net###answerExp
 
 ! News domains
 
